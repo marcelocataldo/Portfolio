@@ -1,0 +1,62 @@
+#topo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: #0e0d0d;
+    height: 80px;
+    z-index: 1000;
+
+    /* glass effect for later */
+    /* background: #0e0e0e30;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); */
+
+
+}
+
+#topo a{
+    text-decoration: none;
+}
+
+#topo h1{
+    position: relative;
+    margin: 20px;
+    text-align: center;
+    /* color: #FAF7F0; */
+    color: white;
+}
+
+#topo h1 .cor{
+    /* color: #1D24CA; */
+    color: #AA14F0;
+}
+
+#topo h1 .cinza{
+    /* color: #686D76; */
+    color: #a8a8a8;
+}
+
+@media (max-width: 720px){
+    #topo h1{
+        margin-top: 10px;
+        font-size: 15pt;
+    }
+
+    #topo{
+        height: 50px;
+    }
+}
+
+@media (max-width: 540px){
+    #topo h1{
+        font-size: 15pt;
+    }
+
+    #topo{
+        height: 50px;
+    }
+}
+

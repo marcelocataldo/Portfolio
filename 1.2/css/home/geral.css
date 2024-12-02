@@ -1,0 +1,59 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 350px;
+    padding: 0;
+    overflow-x: hidden;
+    color: F6F4F4;
+    box-sizing: border-box;
+    background-color: #050505;
+    font-family: 'Poppins';
+}
+
+.blink{
+    font-style: bold;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-timing-function:steps(1);
+    animation-iteration-count:Infinite;
+}
+
+@keyframes blink{
+    0%{color:#AA14F0;}
+    50%{color:#050505;}
+    100%{color:#AA14F0;}
+}
+
+hr{
+    display: none;
+}
+
+@media (max-width: 1700px) {
+    body{
+        margin: 0 200px;
+    }
+}
+
+@media (max-width: 1440px) {
+    body{
+        margin: 0 150px;
+    }
+}
+
+@media (max-width: 960px) {
+    body{
+        margin: 0 50px;
+    }
+
+    hr{
+        display: block;
+    }
+}
+
+@media (max-width: 720px){
+    body{
+        margin: 0 25px;
+    }
+}

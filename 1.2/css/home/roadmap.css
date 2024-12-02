@@ -1,0 +1,82 @@
+#roadmap{
+    display: block;
+    margin: 100px 0px;
+}
+
+.containerRoadmap{
+    display: grid;
+    grid-template-columns: 2fr 3px 3fr;
+    gap: 10px;
+    font-size: 18pt;
+}
+
+.tituloRoadMap{
+    color: #EEEEEE;
+    place-self: center;
+    font-size: 30pt;
+    font-weight: 600;
+}
+
+.divisoriaRoadMap{
+    background-color: #AA14F0;
+    text-align: center;
+}
+
+.listaRoadMap ul{
+    color: #EEEEEE;
+    list-style: none;
+}
+
+.listaRoadMap li{
+    margin: 40px 0 40px 0;
+    list-style: none;
+}
+
+.setaroadmap{
+    font-size: 50px;
+    text-align: left;
+}
+
+@media (max-width: 960px){
+    .containerRoadmap{
+        display: block;
+        font-size: 15pt;
+    }
+
+    .listaRoadMap li{
+        margin: 40px 0 40px 0;
+        list-style: none ;
+    }
+}
+
+@media (max-width: 720px){
+    .tituloRoadMap{
+        font-size: 20pt;
+        text-align: center;
+        margin: 35px 0px;
+        place-self: center;
+    }
+
+    .containerRoadmap{
+        font-size: 15pt;
+        text-align: left;
+    }
+
+    .listaRoadMap ul{
+        place-self: center;
+    }
+}
+
+@media (max-width: 540px){
+    #roadmap{
+        margin: 0;
+    }
+
+    .tituloRoadMap{
+        font-size: 15pt;
+    }
+
+    .containerRoadmap{
+        font-size: 10pt;
+    }
+}

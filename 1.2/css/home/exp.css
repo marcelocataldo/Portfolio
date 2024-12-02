@@ -1,0 +1,119 @@
+#exp{
+    display: block;
+    padding-top: 70px;
+    color: #F6F4F4;
+}
+
+
+#exp h2{
+    font-size: 30pt;
+}
+
+.containerExp{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 60px;
+}
+
+#flix{
+    margin: 50px 0;
+}
+
+
+.logoExp{
+    text-align: right;
+}
+
+.logoExp img{
+    margin-right: 20px;
+    border-radius: 10%;
+}
+
+.textoExp{
+    font-size: 15pt;
+}
+
+
+@media (max-width: 1440px) {
+    #exp h2{
+        margin-bottom: 80px;
+        font-size: 30pt;
+    }
+
+    .logoExp{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .logoExp img{
+        width: 110px;
+    }
+
+    .textoExp{
+        font-weight: 100;
+    }
+}
+
+@media (max-width: 960px){
+    .containerExp{
+        text-align: left;
+        display: inline-block;
+        gap: 60px;
+    }
+
+    .textoExp{
+        font-size: 14pt;
+        font-weight: 600;
+    }
+    .textoExp{
+        font-weight: 100;
+    }
+}
+
+@media (max-width: 720px){
+    #exp h2{
+        margin-bottom: 40px;
+        font-size: 20pt;
+        text-align: center;
+    }
+
+    .logoExp{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .logoExp img{
+        width: 100px;
+    }
+
+    .textoExp{
+        font-weight: 100;
+    }
+}
+
+@media (max-width: 540px){
+    #exp h2{
+        margin-bottom: 40px;
+        font-size: 15pt;
+    }
+
+    .textoExp{
+        font-size: 10pt;
+        font-weight: 600;
+    }
+
+    .logoExp img{
+        width: 70px;
+    }
+
+    #exp{
+        margin-top: 15px;
+    }
+
+    .textoExp{
+        font-weight: 100;
+    }
+}
+
+
+

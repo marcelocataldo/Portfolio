@@ -1,0 +1,17 @@
+#rodape{
+    display: block;
+    color: #F6F4F4;
+}
+
+#rodape p{
+    text-align: center;
+    padding: 40px;
+}
+
+@media (max-width: 960px){
+    #rodape p{
+        font-size: 7pt;
+        padding: 5px;
+        font-weight: 100;
+    }
+}
